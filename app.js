@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser';// Used to pass cookies, store cookies.
 import MongoStore from 'connect-mongo';
 import session from "express-session";
 import methodOverride from 'method-override';
-//this is a test message
+
 // Database
 import connectDB from './server/config/db.js';
 import isActiveRoute from './server/helpers/routeHelpers.js'
